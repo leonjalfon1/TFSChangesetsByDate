@@ -14,7 +14,7 @@ Powershell script to retrieve changesets by dates and generate a simple summary 
  
 ## Requisites
 
- - Powershell Version 2.0 or later
+ - Powershell version 2.0 or later
  - TF.exe tool (usually located in C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE)
  - More info about TF in: https://www.visualstudio.com/en-us/docs/tfvc/use-team-foundation-version-control-commands
  
@@ -24,7 +24,7 @@ Powershell script to retrieve changesets by dates and generate a simple summary 
 
 ### Mandatory
 
-#### Path: Remote Path 
+#### Path
  - Path in source control (directory or file)
  - Example: "$/TeamProject/Branch/Directory"
 #### CollectionUrl
