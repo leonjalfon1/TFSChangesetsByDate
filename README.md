@@ -6,8 +6,8 @@ Powershell script to retrieve changesets by dates and generate a simple summary 
 ## Example Uses
 
  - Find all the changesets created between two dates
- - Find total of changesets between two dates
- - Find total of changesets by month in the last year
+ - Find the total of changesets between two dates
+ - Find the total of changesets by month in the last year
  - Find who did changes in specific path between two dates
 
 ---
@@ -31,7 +31,7 @@ Powershell script to retrieve changesets by dates and generate a simple summary 
  - TFS Collection Url
  - Example: "http://tfsserver:8080/tfs/PTU_Collection"
 #### Dates
- - With the following format {StartDay/StartMonth/StartYear-EndDay/EndMonth/EndYear}
+ - Must meet the following format {StartDay/StartMonth/StartYear-EndDay/EndMonth/EndYear}
  - You can set several dates separated by ';'
  - Example: "1/2/2016-1/4/2016;1/4/2016-1/6/2016;1/6/2016-1/8/2016"
  
