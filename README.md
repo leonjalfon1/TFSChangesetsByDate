@@ -29,7 +29,7 @@ Powershell script to retrieve changesets by dates and generate a simple summary 
  - Example: "$/TeamProject/Branch/Directory"
 #### CollectionUrl
  - TFS Collection Url
- - Example: "http://tfsserver:8080/tfs/PTU_Collection"
+ - Example: "http://tfsserver:8080/tfs/DefaultCollection"
 #### Dates
  - Must meet the following format {StartDay/StartMonth/StartYear-EndDay/EndMonth/EndYear}
  - You can set several dates separated by ';'
